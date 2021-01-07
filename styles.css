@@ -90,6 +90,7 @@ header{
     font-weight: 400;
     letter-spacing: 3px;
     margin-bottom: 1px;
+    font-family: 'PT Serif', serif;
 }
 
 .landing-content h1{
@@ -97,6 +98,7 @@ header{
     font-size: 54px;
     font-weight: 500;
     letter-spacing: 5px;
+    font-family: 'PT Serif', serif;
 }
 
 .landing-content button{
@@ -146,4 +148,34 @@ header{
     font-weight: 400;
     font-size: 15px;
   
+}
+
+/************* SECTION 2 ************/
+
+#section2{
+    height: 100vh;
+    width: 100%;
+}
+
+.section-2-bg{
+    width: 100%;
+    height: 30vh;
+    
+}
+
+.sec-2-filter-yellow{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 100vh;
+    background: #F69D17;
+    opacity: 0.7;
+}
+.sec-2-filter-black{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 100vh;
+    background: #000;
+    opacity: 0.7;
 }

@@ -56,26 +56,50 @@
             <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
         </div>
+        
         <div class="section-2-blocks">
-            <div class="section-block block-1">
-                <h1>WHO</h1>
-                <p>We Are</p>
 
+            <div class="sect2-card">
+                <div class="section-block block-1">
+                    <h1>WHO</h1>
+                    <p>We Are</p>
+
+                </div>
             </div>
-            <div class="section-block block-2">
-                <h1>WHY</h1>
-                <p>We Do It</p>
+
+            <div class="sect2-card">
+                <div class="section-block block-2">
+                    <h1>WHY</h1>
+                    <p>We Do It</p>
 
 
+                </div>
             </div>
-            <div class="section-block block-3">
-                <h1>WHAT</h1>
-                <p>We Do</p>
 
-
+            <div class="sect2-card">
+                <div class="section-block block-3">
+                    <h1>WHAT</h1>
+                    <p>We Do</p>
+                </div>
             </div>
+
         </div>
     </section>
     
+        
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".sect2-card"), {
+		max: 25,
+		speed: 400,
+        glare:true,
+        speed:500,
+        "max-glare":0.5,
+        
+	});
+    </script>
+
+
 </body>
 </html>

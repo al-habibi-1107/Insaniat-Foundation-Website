@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto+Slab:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto+Slab:wght@400;500;800&display=swap');
 
 
 body{
@@ -13,6 +13,7 @@ body{
 header{
     width: 100%;
     position: absolute;
+    top: 20px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -29,7 +30,7 @@ header{
 }
 
 .navbar .logo{
-    width: 120px;
+    width: 70px;
     
 }
 
@@ -40,15 +41,141 @@ header{
     list-style: none;
 }
 
-.nav-items:hover{
+.nav-item:hover{
+    cursor: pointer;
+    color: #F69D17;
+    
+}
+
+.nav-button{
+    position: relative;
+    bottom: 8px;
+    border: none;
+    background: #F69D17;
+    color: white;
+    font-weight: 800;
+    font-size: 1rem;
+    padding: 10px 10px;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 10px;
+}
+
+.nav-button:hover{
     cursor: pointer;
 }
 
 /************ LANDING PAGE ************/
 
-
+#landing{
+    height:100vh;
+}
 
 .landing-img{
     width: 100%;
     height: 100vh;
+}
+
+.landing-content{
+    width: 90%;
+    height: 72vh;
+    position: absolute;
+    top:28vh;
+    left: 5%;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.landing-content h2{
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 1px;
+    font-family: 'PT Serif', serif;
+}
+
+.landing-content h1{
+    margin-top: 1px;
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: 'PT Serif', serif;
+}
+
+.landing-content button{
+    width: 202px;
+    height: 60px;
+    background: #c4c4c458;
+    color: white;
+    border: #fff 1px solid;
+    font-size: 24px;
+    font-family: 'PT Serif', serif;
+}
+
+.landing-content button:hover{
+    background: #fff;
+    color: #F69D17;
+    cursor: pointer;
+}
+
+.landing-base{
+    position: absolute;
+    bottom: 5vh;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-weight: 400;
+    list-style: none;
+}
+
+.landing-base li{
+    display: flex;
+    align-items: flex-end;
+}
+
+.landing-base li h4{
+    font-size: 70px;
+    margin-bottom: 0;
+}
+
+.landing-base li .desc{
+    margin-left: 2px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 200px;
+    font-weight: 400;
+    font-size: 15px;
+  
+}
+
+/************* SECTION 2 ************/
+
+#section2{
+    height: 100vh;
+    width: 100%;
+}
+
+.section-2-bg{
+    width: 100%;
+    height: 30vh;
+    
+}
+
+.sec-2-filter-yellow{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 100vh;
+    background: #F69D17;
+    opacity: 0.7;
+}
+.sec-2-filter-black{
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 100vh;
+    background: #000;
+    opacity: 0.7;
 }

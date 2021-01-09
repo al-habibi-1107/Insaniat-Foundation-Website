@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@100;200;300;400;500;700&family=Roboto+Slab:wght@100;200;300;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
 
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'PT Serif', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /****************** NAVBAR *******************/
@@ -92,7 +93,7 @@ header{
     font-weight: 400;
     letter-spacing: 3px;
     margin-bottom: 1px;
-    font-family: 'PT Serif', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .landing-content h1{
@@ -100,7 +101,7 @@ header{
     font-size: 54px;
     font-weight: 500;
     letter-spacing: 5px;
-    font-family: 'PT Serif', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
  .cta{
@@ -120,6 +121,7 @@ header{
 }
 
 .landing-base{
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     bottom: 5vh;
     width: 100%;
@@ -149,6 +151,7 @@ header{
     width: 200px;
     font-weight: 400;
     font-size: 15px;
+    max-lines: 2;
   
 }
 
@@ -222,7 +225,7 @@ header{
 .section-block{
     width: 300px;
     height: 350px;
-    margin: 0 4px 0 4px;
+    margin: 10px 4px 0 4px;
     padding: 10px 10px ;
     border: #F69D17 1px solid;
     color: #cb7f0d;
@@ -294,7 +297,52 @@ header{
     position: absolute;
     top: 200vh;
     bottom: 100vh;
-    width: 100%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
     
+}
+
+.carousel-image {
+    width: 60%;
+    height: 60%;
+}
+
+.carousel-content{
+    width: 40%;
+    height: 60%;
+}
+
+.carousel-content div{
+    position: absolute;
+    width: 60%;
+}
+
+.carousel-content h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 52px;
+    width: 100%;
+    margin: 0;
+    max-lines: 1;
+}
+
+.carousel-content h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 46px;
+    width: 100%;
+    max-lines: 1;
+}
+
+.carousel-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 45%;
 }

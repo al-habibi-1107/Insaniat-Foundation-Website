@@ -403,7 +403,7 @@ header{
 
 
 
-.property-card1
+.property-card
 {
   height:20em;
   width:16em;
@@ -436,6 +436,56 @@ header{
 
 
 .property-description1
+{  
+background-color: #FAFAFC;
+height:10em;
+width:100%;
+position:absolute;
+bottom:0em;
+
+text-align:center;
+}
+
+.property-image2
+{
+  height:12em;
+  width:100%;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+
+  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+.property-description2
+{  
+background-color: #FAFAFC;
+height:10em;
+width:100%;
+position:absolute;
+bottom:0em;
+
+text-align:center;
+}
+
+.property-image3
+{
+  height:12em;
+  width:100%;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+
+  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+.property-description3
 {  
 background-color: #FAFAFC;
 height:10em;

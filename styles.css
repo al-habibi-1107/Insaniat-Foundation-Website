@@ -550,7 +550,92 @@ text-align:center;
 /************ SECTION 6 *********/
 
 #section-6{
-    height: 40vh;
+    height: 35vh;
+    width: 90%;
+    background: rgb(41, 41, 41);
+    padding: 10px 5%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sec-6-desc{
+    flex: 1;
+}
+
+.sec-6-desc p{
+    font-size: 20;
+    width: 70%;
+}
+
+.sec-6-location{
+    flex: 1;
+}
+
+.sec-6-location p{
+    width: 70%;
+    font-size: 20;
+}
+
+.sec-6-mail-us{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sec-6-mail-us p{
+    width: 70%;
+}
+
+#mail-usr{
+    width: 60%;
+    border: 1px solid black;
+    margin-bottom: 4px;
+    padding: 4px 4px;
+    background: #909090;
+    color: #000;
+}
+
+#body-usr{
+    width: 60%;
+    height: 90px;
+    border: 1px solid black;
+    margin-bottom: 4px;
+    padding: 4px 4px;
+    background: #909090;
+    color: #000;
+}
+
+.mail-btn{
+    border: 1px solid #909090;
+    padding: 4px 4px;
+    background: #000 ;
+    color: #909090;
+    width: 30%;
+    height: 20%;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.mail-btn:hover{
+    background: #909090;
+    color: #000;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: black;
+}
+
+#copyright{
     width: 100%;
-    background: black;
+    height: 7vh;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

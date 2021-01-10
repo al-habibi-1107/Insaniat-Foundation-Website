@@ -11,6 +11,16 @@ body{
 
 /****************** NAVBAR *******************/
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #F69D17;
+}
+
 header{
     width: 100%;
     position: absolute;
@@ -42,11 +52,6 @@ header{
     list-style: none;
 }
 
-.nav-item:hover{
-    cursor: pointer;
-    color: #F69D17;
-    
-}
 
 .nav-button{
     position: relative;
@@ -82,7 +87,7 @@ header{
     width: 90%;
     height: 72vh;
     position: absolute;
-    top:28vh;
+    top:25vh;
     left: 5%;
     color: white;
     font-family: 'Roboto Slab', serif;
@@ -101,10 +106,21 @@ header{
     font-size: 54px;
     font-weight: 500;
     letter-spacing: 5px;
+    margin-bottom: 5px;
     font-family: 'Poppins', sans-serif;
 }
 
+.landing-content h3{
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
  .cta{
+     margin-top: 30px;
     width: 202px;
     height: 60px;
     background: #c4c4c458;
@@ -123,7 +139,7 @@ header{
 .landing-base{
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    bottom: 5vh;
+    bottom: 3vh;
     width: 100%;
     padding-left: 0;
     margin-bottom: 0;
@@ -246,13 +262,14 @@ header{
 }
 
 .block-2{
+    margin-top: 10px;
     height: 430px;
     background: #F69D17;
     color: white;
 }
 
 .section-2-buttons{
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -280,11 +297,13 @@ header{
 /*********** SECTION 3  **********/
 
 .sec-3-bg{
+    margin-top: 10px;
     height: 100vh;
     width: 100%;
 }
 
 .sec-3-filter-black{
+    margin-top: 10px;
     position: absolute;
     top: 200vh;
     background: black;

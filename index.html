@@ -238,7 +238,7 @@
 
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
-        VanillaTilt.init(document.querySelectorAll(".sect2-card, button"), {
+        VanillaTilt.init(document.querySelectorAll("button"), {
 		max: 30,
 		speed: 400,
         glare:true,
@@ -247,6 +247,16 @@
 	});
     </script>
 
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".sect2-card"), {
+        max: 20,
+        speed: 400,
+        glare:true,
+        speed:800,
+        "max-glare":0.5,
+    });
+    </script>
 
 </body>
 </html>

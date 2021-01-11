@@ -85,6 +85,10 @@ header{
     height:100vh;
 }
 
+.landing-content hr{
+    visibility: hidden;
+}
+
 .landing-img{
     width: 100%;
     height: 100vh;
@@ -666,7 +670,7 @@ text-align:center;
     align-items: center;
 }
 
-/* MOBILE PHONE VIEW */
+/****************************************** MOBILE PHONE VIEW **************************/
 
 @media only screen and (max-width: 600px){
 
@@ -695,7 +699,7 @@ text-align:center;
 
     #landing{
 
-        height: 150vh;
+        height: 160vh;
     }
 
     .landing-img{
@@ -704,7 +708,9 @@ text-align:center;
     }
 
     .cta{
-        border-radius: 5px;
+        border: 1px solid #F69D17;
+        color: #cb7f0d;
+
     }
     .landing-content{
         width: 100%;
@@ -722,6 +728,7 @@ text-align:center;
     }
 
     .landing-content hr{
+        visibility: visible;
         width: 75%;
         margin: auto;
     }
@@ -758,7 +765,7 @@ text-align:center;
     .section-2-content{
 
         position: absolute;
-        top: 150vh;
+        top: 160vh;
         color:black;
         height: auto;
     }
@@ -818,14 +825,14 @@ text-align:center;
 
     .carousel{
         position: absolute;
-        top: 375vh;
+        top: 385vh;
         flex-direction: column-reverse;
         
     }
 
     .sec-3-filter-black{
         position: absolute;
-        top: 370vh;
+        top: 380vh;
     }
 
     .carousel-content{
@@ -916,4 +923,40 @@ text-align:center;
     font-weight: 300;
 }
 
+/* SECTION 5 */
+
+#section-5{
+    height: auto;
 }
+
+.sec-5-cards{
+    flex-direction: column;
+}
+
+.sec-5-cards .card{
+    width: 80%;
+    border: none;
+    margin-bottom: 5px;
+}
+
+/* SECTION 6 */
+
+#section-6{
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.sec-6-mail-us{
+    width: 100%;
+}
+
+#copyright{
+    height: auto;
+    text-align: center;
+}
+
+}
+
